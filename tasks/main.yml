@@ -1,0 +1,17 @@
+---
+
+- name: Install auditd
+  ansible.builtin.package:
+    name: "{{ auditd_packages }}"
+    state: present
+  become: yes
+  become_user: root
+
+- name: Activate services
+  ansible.builtin.service:
+    name: "{{ item }}"
+    state: started
+    enabled: yes
+  loop: "{{ auditd_services }}"
+  become: yes
+  become_user: root

@@ -1,0 +1,13 @@
+---
+
+# Generic
+generic:
+  role: ansible-role-auditd
+  role_short: auditd
+  role_description: |
+    Installs/configures auditd
+  collections: []
+
+molecule:
+  requirements:
+    roles_extra: []

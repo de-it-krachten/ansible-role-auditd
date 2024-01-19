@@ -1,0 +1,7 @@
+---
+
+auditd_packages:
+  - auditd
+
+auditd_services:
+  - auditd
