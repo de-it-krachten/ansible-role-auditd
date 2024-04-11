@@ -1,0 +1,9 @@
+---
+
+# List of OS packages
+auditd_packages:
+  - audit
+
+# Lsit of OS services
+auditd_services:
+  - auditd

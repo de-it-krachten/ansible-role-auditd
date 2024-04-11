@@ -13,7 +13,7 @@ Installs/configures auditd
 None
 
 #### Collections
-- community.general
+None
 
 ## Platforms
 
