@@ -19,24 +19,8 @@ None
 
 Supported platforms
 
-- Red Hat Enterprise Linux 7<sup>1</sup>
-- Red Hat Enterprise Linux 8<sup>1</sup>
-- Red Hat Enterprise Linux 9<sup>1</sup>
-- CentOS 7
-- RockyLinux 8
-- RockyLinux 9
-- OracleLinux 8
-- OracleLinux 9
-- AlmaLinux 8
-- AlmaLinux 9
-- SUSE Linux Enterprise 15<sup>1</sup>
-- openSUSE Leap 15
-- Debian 11 (Bullseye)
-- Debian 12 (Bookworm)
 - Ubuntu 20.04 LTS
 - Ubuntu 22.04 LTS
-- Fedora 37
-- Fedora 38
 
 Note:
 <sup>1</sup> : no automated testing is performed on these platforms
@@ -44,9 +28,27 @@ Note:
 ## Role Variables
 ### defaults/main.yml
 <pre><code>
+
+</pre></code>
+
+### defaults/family-RedHat.yml
+<pre><code>
+# List of OS packages
+auditd_packages:
+  - audit
+
+# Lsit of OS services
+auditd_services:
+  - auditd
+</pre></code>
+
+### defaults/family-Debian.yml
+<pre><code>
+# List of OS packages
 auditd_packages:
   - auditd
 
+# Lsit of OS services
 auditd_services:
   - auditd
 </pre></code>
