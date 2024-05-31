@@ -21,6 +21,7 @@ Supported platforms
 
 - Ubuntu 20.04 LTS
 - Ubuntu 22.04 LTS
+- Ubuntu 24.04 LTS
 
 Note:
 <sup>1</sup> : no automated testing is performed on these platforms
@@ -31,22 +32,22 @@ Note:
 
 </pre></code>
 
-### defaults/family-RedHat.yml
+### defaults/family-Debian.yml
 <pre><code>
 # List of OS packages
 auditd_packages:
-  - audit
+  - auditd
 
 # Lsit of OS services
 auditd_services:
   - auditd
 </pre></code>
 
-### defaults/family-Debian.yml
+### defaults/family-RedHat.yml
 <pre><code>
 # List of OS packages
 auditd_packages:
-  - auditd
+  - audit
 
 # Lsit of OS services
 auditd_services:
