@@ -17,31 +17,31 @@
   box: generic/centos9s
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: rockylinux8
-  ci: false
+  ci: true
   box: generic/rocky8
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: rockylinux9
-  ci: false
+  ci: true
   box: generic/rocky9
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: oraclelinux8
-  ci: false
+  ci: true
   box: generic/oracle8
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: oraclelinux9
-  ci: false
+  ci: true
   box: generic/oracle9
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: almalinux8
-  ci: false
+  ci: true
   box: generic/alma8
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: almalinux9
-  ci: false
+  ci: true
   box: generic/alma9
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: opensuse15
-  ci: false
+  ci: true
   box: generic/opensuse15
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: opensusetumbleweed15
@@ -53,11 +53,11 @@
   box: generic/debian10
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: debian11
-  ci: false
+  ci: true
   box: generic/debian11
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: debian12
-  ci: false
+  ci: true
   box: debian/bookworm64
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp', 'auto_config': True}]
 - name: ubuntu1804
@@ -85,11 +85,11 @@
   box: generic/fedora38
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp'}]
 - name: fedora39
-  ci: false
+  ci: true
   box: generic/fedora39
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp'}]
 - name: fedora40
-  ci: false
+  ci: true
   box: generic/fedora40
   interfaces: [{'network_name': 'private_network', 'type': 'dhcp'}]
 - name: alpine3
