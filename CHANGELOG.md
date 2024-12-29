@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.0.0...v1.1.0) (2024-12-29)
+
+
+### Features
+
+* Update supported platforms & CI ([ba83f40](https://github.com/de-it-krachten/ansible-role-auditd/commit/ba83f40ffb46b0e6cb428c3d5c8723e19fad6af6))
+
 # 1.0.0 (2024-07-13)
 
 
