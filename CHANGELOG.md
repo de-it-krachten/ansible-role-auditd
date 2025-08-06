@@ -1,3 +1,14 @@
+# [1.2.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.1.0...v1.2.0) (2025-08-06)
+
+
+### Features
+
+* Add support for AlmaLinux 10 ([38b2853](https://github.com/de-it-krachten/ansible-role-auditd/commit/38b2853032a57850d389c46c747b7df85ebc8846))
+* Add support for Debian 13 (Trixie) ([141837e](https://github.com/de-it-krachten/ansible-role-auditd/commit/141837e577747a402b797d8352d0995167f5a3ff))
+* Add support for OracleLinux 10 ([af941a1](https://github.com/de-it-krachten/ansible-role-auditd/commit/af941a1f6d79c6b0b3bd434a778eebed91907f58))
+* Add support for Red Hat Enterprise Linux 10 ([30fa192](https://github.com/de-it-krachten/ansible-role-auditd/commit/30fa192bb7cdfd72248559b619840526538210c5))
+* Add support for RockyLinux 10 ([0bc40be](https://github.com/de-it-krachten/ansible-role-auditd/commit/0bc40be162ad97d5a59f483b285b961bfac96eff))
+
 # [1.1.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.0.0...v1.1.0) (2024-12-29)
 
 
