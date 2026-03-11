@@ -1,0 +1,16 @@
+---
+
+- name: Create audit log directory
+  ansible.builtin.file:
+    path: "{{ auditd_log_dir }}"
+    state: directory
+    owner: root
+    group: root
+    mode: "0700"
+
+- name: Set correct SELinux context
+  ansible.builtin.command:
+    cmd: restorecon {{ auditd_log_dir }}
+  register: __restorecon
+  changed_when: __restorecon.stdout | length > 0
+  when: ansible_os_family == 'RedHat'
