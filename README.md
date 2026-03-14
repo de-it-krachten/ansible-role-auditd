@@ -47,7 +47,8 @@ Note:
 ## Role Variables
 ### defaults/main.yml
 <pre><code>
-
+# Auditd log directory
+auditd_log_dir: /var/log/audit
 </pre></code>
 
 ### defaults/family-Debian.yml
