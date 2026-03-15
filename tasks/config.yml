@@ -10,7 +10,7 @@
 
 - name: Set correct SELinux context
   ansible.builtin.command:
-    cmd: restorecon {{ auditd_log_dir }}
+    cmd: restorecon -R {{ auditd_log_dir }}
   register: __restorecon
   changed_when: __restorecon.stdout | length > 0
   when: ansible_os_family == 'RedHat'
