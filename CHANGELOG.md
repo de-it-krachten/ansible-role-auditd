@@ -1,3 +1,19 @@
+# [1.3.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.2.0...v1.3.0) (2026-03-15)
+
+
+### Bug Fixes
+
+* Add missing log directory ([78184c2](https://github.com/de-it-krachten/ansible-role-auditd/commit/78184c2b5bc051561d6a4b951805c3506fe9745c))
+
+
+### Features
+
+* Added support for Fedora 43 ([e244a98](https://github.com/de-it-krachten/ansible-role-auditd/commit/e244a98e90ac4a56d1cc4fad075357d5f407897b))
+* Create log location ([65a8e0e](https://github.com/de-it-krachten/ansible-role-auditd/commit/65a8e0e45175781bda404a7d2bd84e30f2314dbe))
+* Drop support for Fedora 41 ([fe1b8c4](https://github.com/de-it-krachten/ansible-role-auditd/commit/fe1b8c43095aa4eaa24f0ceceb32442c722185dd))
+* Drop support for openSUSE Leap 15 ([789ebc3](https://github.com/de-it-krachten/ansible-role-auditd/commit/789ebc3c0509f0c9716484da9cdb82f5d7751e35))
+* Drop support for SUSE Linux Enterprise 15 ([8f1fc42](https://github.com/de-it-krachten/ansible-role-auditd/commit/8f1fc4200593b2498b68472695be35744b4c9d87))
+
 # [1.2.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.1.0...v1.2.0) (2025-08-06)
 
 
