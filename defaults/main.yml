@@ -1,1 +1,4 @@
 ---
+
+# Auditd log directory
+auditd_log_dir: /var/log/audit
