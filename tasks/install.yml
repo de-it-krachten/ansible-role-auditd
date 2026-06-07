@@ -15,4 +15,4 @@
   loop: "{{ auditd_services }}"
   become: yes
   become_user: root
-  when: ansible_virtualization_type not in [ 'docker', 'container', 'containerd' ]
+  when: ansible_facts.virtualization_type not in [ 'docker', 'container', 'containerd' ]
