@@ -13,4 +13,4 @@
     cmd: restorecon -R {{ auditd_log_dir }}
   register: __restorecon
   changed_when: __restorecon.stdout | length > 0
-  when: ansible_os_family == 'RedHat'
+  when: ansible_facts.os_family == 'RedHat'
