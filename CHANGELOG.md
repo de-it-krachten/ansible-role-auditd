@@ -1,3 +1,18 @@
+# [1.4.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.3.0...v1.4.0) (2026-07-23)
+
+
+### Bug Fixes
+
+* Standarize vars.yml ([edd5f57](https://github.com/de-it-krachten/ansible-role-auditd/commit/edd5f57282d1024feae268d8c2cbd82aa1fd115c))
+
+
+### Features
+
+* Add support for ansible-core 2.20+ ([8d0b2f7](https://github.com/de-it-krachten/ansible-role-auditd/commit/8d0b2f72ef7b36a0b58f14981ae144a31f314ece))
+* Added support for Fedora 44 ([458679f](https://github.com/de-it-krachten/ansible-role-auditd/commit/458679fbaad2554987faea2e8d658943b7d9ab53))
+* Added support for Ubuntu 26.04 LTS ([fc72af5](https://github.com/de-it-krachten/ansible-role-auditd/commit/fc72af517aaf58e495b8866672d7a63303296495))
+* Drop support for Fedora 42 ([0e430fd](https://github.com/de-it-krachten/ansible-role-auditd/commit/0e430fd507dec2c267544f4100119da36473cb98))
+
 # [1.3.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.2.0...v1.3.0) (2026-03-15)
 
 
