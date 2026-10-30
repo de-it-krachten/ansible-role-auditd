@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.4.0...v1.5.0) (2026-10-30)
+
+
+### Features
+
+* Drop support for Debian 11 (Bullseye) ([20820f2](https://github.com/de-it-krachten/ansible-role-auditd/commit/20820f2b9056b457b5cdaf6fcdf8d2da0094bdb0))
+
 # [1.4.0](https://github.com/de-it-krachten/ansible-role-auditd/compare/v1.3.0...v1.4.0) (2026-07-23)
 
 
